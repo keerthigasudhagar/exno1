@@ -19,8 +19,14 @@ STEP 4: Save the Clean data to the file
 STEP 5: Remove outliers using IQR
 
 STEP 6: Use zscore of to remove outliers
-
 # Coding and Output
-            <<include your coding and its corressponding output screen shots here>>
+## Data cleaning process:
+```
+import pandas as pd
+df=pd.read_csv("/content/SAMPLEIDS.csv")
+df
+```
+![359429919-4527d27f-ce48-44cb-b8ce-34bbd266e130](https://github.com/user-attachments/assets/22b1c5d1-3170-4bc7-a838-4243e477c798)
+      
 # Result
           <<include your Result here>>
